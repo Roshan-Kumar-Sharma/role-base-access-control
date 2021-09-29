@@ -1,0 +1,14 @@
+### 
+POST http://localhost:3000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvc2hhbiIsInNjb3BlIjoibG9naW4gdXNlcnMiLCJlYXQiOiIxbSIsImlhdCI6MTYzMjkzNjE0NiwiZXhwIjoxNjMyOTM2MjA2LCJpc3MiOiJjb2Rld2l0aHJvc2hhbkBnbWFpbC5jb20ifQ.ByHli1NwArP_qO4SsKDdcKL8RZhLkf3Po61wF_Lf3_A
+
+### 
+POST http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvc2hhbiIsInNjb3BlIjoibG9naW4gdXNlcnMiLCJlYXQiOiIxbSIsImlhdCI6MTYzMjkzNjA3NywiZXhwIjoxNjMyOTM2MTM3LCJpc3MiOiJjb2Rld2l0aHJvc2hhbkBnbWFpbC5jb20ifQ.dcGfZ-giVfsZelLfVE41ZjAx1C0DRaNl5N0TEqAwgkM
+
+
+###
+GET http://localhost:3000/token/login users
+
+###
+GET http://localhost:3000/happy
